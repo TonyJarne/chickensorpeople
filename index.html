@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chickens vs People in Europe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .header .subtitle {
+            font-size: 0.9em;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        
+        .stats-box {
+            background: rgba(0, 0, 0, 0.05);
+            padding: 20px 30px;
+            border-bottom: 2px solid #667eea;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        
+        .stat-item h3 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+        
+        .stat-item p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .controls {
+            padding: 20px 30px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            background: #f8f9fa;
+        }
+        
+        .controls input {
+            padding: 10px 15px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            flex: 1;
+            min-width: 200px;
+            transition: border-color 0.3s;
+        }
+        
+        .controls input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transition: background 0.2s;
+        }
+        
+        .rank {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+        
+        .country-name {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .number {
+            font-family: 'Courier New', monospace;
+            text-align: right;
+        }
+        
+        .ratio {
+            background: linear-gradient(90deg, rgba(102, 126, 234, 0.1) 0%, rgba(102, 126, 234, 0.3) 100%);
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .footer h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-section {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            th, td {
+                padding: 10px;
+                font-size: 0.85em;
+            }
+            
+            .controls {
+                flex-direction: column;
+            }
+            
+            .controls input {
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🐔 Chickens vs People in Europe 🐔</h1>
+            <p>An analysis of 39 European countries with more chickens than people</p>
+            <div class="subtitle">Data sources: FAOSTAT (2024) | Eurostat (2024) | ONS (Mid-2024)</div>
+        </div>
+        
+        <div class="stats-box">
+            <div class="stat-item">
+                <h3>39</h3>
+                <p>European Countries</p>
+            </div>
+            <div class="stat-item">
+                <h3>1.4B+</h3>
+                <p>Total Chickens</p>
+            </div>
+            <div class="stat-item">
+                <h3>Moldova</h3>
+                <p>Highest Ratio</p>
+            </div>
+            <div class="stat-item">
+                <h3>13.65:1</h3>
+                <p>Chickens per Person</p>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="🔍 Search by country name..." />
+        </div>
+        
+        <div class="table-wrapper">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Country</th>
+                        <th>Chickens</th>
+                        <th>Population</th>
+                        <th>Ratio (Chickens per Person)</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-section">
+                <h3>📊 Data Sources</h3>
+                <p><strong>Chicken/Poultry Population:</strong> <a href="https://www.fao.org/faostat/en/" target="_blank">FAOSTAT</a> (Food and Agriculture Organization of the UN) - 2024</p>
+                <p><strong>EU Population:</strong> <a href="https://ec.europa.eu/eurostat/" target="_blank">Eurostat</a> (Statistical Office of the European Commission) - 2024</p>
+                <p><strong>UK Population:</strong> <a href="https://ons.gov.uk/" target="_blank">ONS</a> (Office for National Statistics) Mid-2024 Estimates - 69.3 million</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>📚 Documentation</h3>
+                <p>For detailed analysis, methodology, and data limitations, see the project documentation:</p>
+                <p>
+                    <a href="https://github.com/yourusername/chickens-vs-people" target="_blank">GitHub Repository</a> |
+                    <a href="README.md">README</a> |
+                    <a href="ANALYSIS.md">Full Analysis</a> |
+                    <a href="DATA_SOURCES.md">Data Sources</a>
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>ℹ️ Note</h3>
+                <p>This analysis includes all European countries with available data. Some data points are from 2023 or earlier for countries where 2024 data was not yet available. All figures are for the most recent year available from official sources.</p>
+            </div>
+            
+            <div class="footer-section" style="border-top: 1px solid #ddd; padding-top: 20px; margin-top: 20px;">
+                <p style="font-size: 0.85em; color: #999;">Last Updated: November 2024 | Data Year: 2024 | License: MIT</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const countriesData = [
+            { rank: 1, country: "Moldova", chickens: 48451000, population: 3550000, ratio: 13.65 },
+            { rank: 2, country: "Belarus", chickens: 120516000, population: 9480000, ratio: 12.71 },
+            { rank: 3, country: "Poland", chickens: 244680000, population: 36800000, ratio: 6.65 },
+            { rank: 4, country: "Cyprus", chickens: 4655000, population: 858000, ratio: 5.43 },
+            { rank: 5, country: "Netherlands", chickens: 89231000, population: 17700000, ratio: 5.04 },
+            { rank: 6, country: "Ukraine", chickens: 173725000, population: 36500000, ratio: 4.76 },
+            { rank: 7, country: "Russia (European Part)", chickens: 507994000, population: 110000000, ratio: 4.62 },
+            { rank: 8, country: "Portugal", chickens: 44098000, population: 10400000, ratio: 4.24 },
+            { rank: 9, country: "Belgium", chickens: 48754000, population: 11690000, ratio: 4.17 },
+            { rank: 10, country: "Spain", chickens: 193476000, population: 48100000, ratio: 4.02 },
+            { rank: 11, country: "Romania", chickens: 74068000, population: 19050000, ratio: 3.89 },
+            { rank: 12, country: "Lithuania", chickens: 10476000, population: 2795000, ratio: 3.75 },
+            { rank: 13, country: "Greece", chickens: 38508000, population: 10640000, ratio: 3.62 },
+            { rank: 14, country: "Denmark", chickens: 20718000, population: 5842000, ratio: 3.55 },
+            { rank: 15, country: "Bosnia and Herzegovina", chickens: 11523000, population: 3280000, ratio: 3.51 },
+            { rank: 16, country: "France", chickens: 229317000, population: 68200000, ratio: 3.36 },
+            { rank: 17, country: "Latvia", chickens: 5985000, population: 1884000, ratio: 3.18 },
+            { rank: 18, country: "Norway", chickens: 16579000, population: 5457000, ratio: 3.04 },
+            { rank: 19, country: "Ireland", chickens: 15236000, population: 5100000, ratio: 2.99 },
+            { rank: 20, country: "Hungary", chickens: 28733000, population: 9690000, ratio: 2.97 },
+            { rank: 21, country: "Croatia", chickens: 10936000, population: 3850000, ratio: 2.84 },
+            { rank: 22, country: "Finland", chickens: 14425000, population: 5563000, ratio: 2.59 },
+            { rank: 23, country: "Bulgaria", chickens: 17177000, population: 6800000, ratio: 2.53 },
+            { rank: 24, country: "Sweden", chickens: 25729000, population: 10520000, ratio: 2.45 },
+            { rank: 25, country: "Italy", chickens: 142503000, population: 59000000, ratio: 2.42 },
+            { rank: 26, country: "United Kingdom", chickens: 166986000, population: 69300000, ratio: 2.41 },
+            { rank: 27, country: "Czech Republic", chickens: 24917000, population: 10500000, ratio: 2.37 },
+            { rank: 28, country: "Slovenia", chickens: 5054000, population: 2160000, ratio: 2.34 },
+            { rank: 29, country: "Serbia", chickens: 14417000, population: 6664000, ratio: 2.16 },
+            { rank: 30, country: "Georgia", chickens: 7475000, population: 3730000, ratio: 2.00 },
+            { rank: 31, country: "Austria", chickens: 17804000, population: 9120000, ratio: 1.95 },
+            { rank: 32, country: "Germany", chickens: 156301000, population: 84400000, ratio: 1.85 },
+            { rank: 33, country: "Slovakia", chickens: 9593000, population: 5450000, ratio: 1.76 },
+            { rank: 34, country: "Montenegro", chickens: 1070000, population: 622000, ratio: 1.72 },
+            { rank: 35, country: "Estonia", chickens: 2274000, population: 1331000, ratio: 1.71 },
+            { rank: 36, country: "Malta", chickens: 790000, population: 476000, ratio: 1.66 },
+            { rank: 37, country: "Albania", chickens: 4557000, population: 2862000, ratio: 1.59 },
+            { rank: 38, country: "Switzerland", chickens: 13168000, population: 8775000, ratio: 1.50 },
+            { rank: 39, country: "North Macedonia", chickens: 2573000, population: 2077000, ratio: 1.24 }
+        ];
+        
+        function formatNumber(num) {
+            return num.toLocaleString('en-US');
+        }
+        
+        function populateTable(data) {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+            
+            data.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="rank">#${item.rank}</td>
+                    <td class="country-name">${item.country}</td>
+                    <td class="number">${formatNumber(item.chickens)}</td>
+                    <td class="number">${formatNumber(item.population)}</td>
+                    <td class="ratio">${item.ratio.toFixed(2)} : 1</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+        
+        document.getElementById('searchInput').addEventListener('keyup', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const filtered = countriesData.filter(item => 
+                item.country.toLowerCase().includes(searchTerm)
+            );
+            populateTable(filtered);
+        });
+        
+        // Load table initially
+        populateTable(countriesData);
+        
+        // Calculate total chickens
+        const totalChickens = countriesData.reduce((sum, item) => sum + item.chickens, 0);
+        document.querySelector('.stat-item:nth-child(2) h3').textContent = (totalChickens / 1000000000).toFixed(1) + 'B+';
+    </script>
+</body>
+</html>

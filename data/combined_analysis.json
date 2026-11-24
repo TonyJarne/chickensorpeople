@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "title": "Complete Analysis: Chickens vs People in Europe",
+    "data_sources": [
+      "FAOSTAT 2024",
+      "Eurostat 2024",
+      "ONS Mid-2024 (UK)"
+    ],
+    "analysis_date": "2024-11-24",
+    "total_countries": 39,
+    "version": "1.0"
+  },
+  "summary_statistics": {
+    "total_chickens": 1399894000,
+    "total_population": 450000000,
+    "overall_ratio": 3.11,
+    "mean_ratio": 3.59,
+    "median_ratio": 2.85,
+    "highest_ratio_country": "Moldova",
+    "highest_ratio_value": 13.65,
+    "lowest_ratio_country": "North Macedonia",
+    "lowest_ratio_value": 1.24
+  },
+  "data": [
+    {
+      "rank": 1,
+      "country": "Moldova",
+      "chickens": 48451000,
+      "population": 3550000,
+      "ratio": 13.65,
+      "chickens_per_100_people": 1365,
+      "region": "Eastern Europe",
+      "eu_member": false,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "National Statistics 2024"
+      }
+    },
+    {
+      "rank": 2,
+      "country": "Belarus",
+      "chickens": 120516000,
+      "population": 9480000,
+      "ratio": 12.71,
+      "chickens_per_100_people": 1271,
+      "region": "Eastern Europe",
+      "eu_member": false,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "National Statistics 2024"
+      }
+    },
+    {
+      "rank": 3,
+      "country": "Poland",
+      "chickens": 244680000,
+      "population": 36800000,
+      "ratio": 6.65,
+      "chickens_per_100_people": 665,
+      "region": "Central Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 4,
+      "country": "Cyprus",
+      "chickens": 4655000,
+      "population": 858000,
+      "ratio": 5.43,
+      "chickens_per_100_people": 543,
+      "region": "Southern Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 5,
+      "country": "Netherlands",
+      "chickens": 89231000,
+      "population": 17700000,
+      "ratio": 5.04,
+      "chickens_per_100_people": 504,
+      "region": "Western Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 6,
+      "country": "Ukraine",
+      "chickens": 173725000,
+      "population": 36500000,
+      "ratio": 4.76,
+      "chickens_per_100_people": 476,
+      "region": "Eastern Europe",
+      "eu_member": false,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "National Statistics 2024"
+      }
+    },
+    {
+      "rank": 7,
+      "country": "Russia (European Part)",
+      "chickens": 507994000,
+      "population": 110000000,
+      "ratio": 4.62,
+      "chickens_per_100_people": 462,
+      "region": "Eastern Europe",
+      "eu_member": false,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "National Statistics 2024"
+      }
+    },
+    {
+      "rank": 8,
+      "country": "Portugal",
+      "chickens": 44098000,
+      "population": 10400000,
+      "ratio": 4.24,
+      "chickens_per_100_people": 424,
+      "region": "Southern Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2023",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 9,
+      "country": "Belgium",
+      "chickens": 48754000,
+      "population": 11690000,
+      "ratio": 4.17,
+      "chickens_per_100_people": 417,
+      "region": "Western Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2023",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 10,
+      "country": "Spain",
+      "chickens": 193476000,
+      "population": 48100000,
+      "ratio": 4.02,
+      "chickens_per_100_people": 402,
+      "region": "Southern Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2020",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 11,
+      "country": "Romania",
+      "chickens": 74068000,
+      "population": 19050000,
+      "ratio": 3.89,
+      "chickens_per_100_people": 389,
+      "region": "Eastern Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2023",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 12,
+      "country": "Lithuania",
+      "chickens": 10476000,
+      "population": 2795000,
+      "ratio": 3.75,
+      "chickens_per_100_people": 375,
+      "region": "Baltic",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 16,
+      "country": "France",
+      "chickens": 229317000,
+      "population": 68200000,
+      "ratio": 3.36,
+      "chickens_per_100_people": 336,
+      "region": "Western Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 26,
+      "country": "United Kingdom",
+      "chickens": 166986000,
+      "population": 69300000,
+      "ratio": 2.41,
+      "chickens_per_100_people": 241,
+      "region": "Western Europe",
+      "eu_member": false,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "ONS Mid-2024"
+      },
+      "note": "UK population: 69.3 million (Mid-2024 estimate)"
+    },
+    {
+      "rank": 32,
+      "country": "Germany",
+      "chickens": 156301000,
+      "population": 84400000,
+      "ratio": 1.85,
+      "chickens_per_100_people": 185,
+      "region": "Central Europe",
+      "eu_member": true,
+      "data_sources": {
+        "chickens": "FAOSTAT 2023",
+        "population": "Eurostat 2024"
+      }
+    },
+    {
+      "rank": 39,
+      "country": "North Macedonia",
+      "chickens": 2573000,
+      "population": 2077000,
+      "ratio": 1.24,
+      "chickens_per_100_people": 124,
+      "region": "Balkans",
+      "eu_member": false,
+      "data_sources": {
+        "chickens": "FAOSTAT 2024",
+        "population": "National Statistics 2024"
+      }
+    }
+  ],
+  "regional_analysis": {
+    "Eastern Europe": {
+      "countries": ["Moldova", "Belarus", "Ukraine", "Russia"],
+      "mean_ratio": 7.18,
+      "characteristics": "Highest ratios, strong agricultural traditions"
+    },
+    "Western Europe": {
+      "countries": ["France", "Spain", "Belgium", "Netherlands", "Germany", "UK"],
+      "mean_ratio": 3.14,
+      "characteristics": "Large absolute populations, industrialized production"
+    },
+    "Nordic Countries": {
+      "countries": ["Sweden", "Denmark", "Finland", "Norway"],
+      "mean_ratio": 2.87,
+      "characteristics": "Moderate ratios, sustainable practices"
+    },
+    "Southern Europe": {
+      "countries": ["Spain", "Greece", "Cyprus", "Italy", "Portugal", "Malta"],
+      "mean_ratio": 3.47,
+      "characteristics": "Mediterranean traditions, varied ratios"
+    },
+    "Central Europe": {
+      "countries": ["Poland", "Czech Republic", "Hungary", "Slovakia", "Austria"],
+      "mean_ratio": 3.49,
+      "characteristics": "Strong agriculture, modern farming growth"
+    },
+    "Baltic": {
+      "countries": ["Lithuania", "Latvia", "Estonia"],
+      "mean_ratio": 2.53,
+      "characteristics": "Moderate ratios, growing poultry sector"
+    },
+    "Balkans": {
+      "countries": ["Bosnia", "Serbia", "Albania", "Montenegro", "North Macedonia", "Croatia"],
+      "mean_ratio": 2.37,
+      "characteristics": "Transitional economies, developing sector"
+    }
+  },
+  "economic_data": {
+    "eu_production_2024": {
+      "total_poultry_meat_tonnes": 14100000,
+      "chicken_percentage": 87,
+      "total_value_billion_euros": 15,
+      "top_producers": [
+        {"country": "Poland", "percentage": 20.5},
+        {"country": "Spain", "percentage": 12.8},
+        {"country": "France", "percentage": 12.2},
+        {"country": "Germany", "percentage": 10.9},
+        {"country": "Italy", "percentage": 9.8}
+      ]
+    },
+    "eu_egg_production_2024": {
+      "total_eggs_billion": 98.6,
+      "laying_hens_million": 393,
+      "average_per_capita_kg": 13.8
+    }
+  }
+}

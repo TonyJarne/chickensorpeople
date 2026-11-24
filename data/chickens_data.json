@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "Chicken Population Data - European Countries",
+    "source": "FAOSTAT (Food and Agriculture Organization)",
+    "url": "https://www.fao.org/faostat/en/",
+    "data_year": 2024,
+    "total_countries": 39,
+    "total_chickens": 1399894000,
+    "last_updated": "2024-11-24",
+    "note": "Some countries have data from previous years (see individual records)"
+  },
+  "data": [
+    {
+      "rank": 1,
+      "country": "Moldova",
+      "chickens": 48451000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 2,
+      "country": "Belarus",
+      "chickens": 120516000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 3,
+      "country": "Poland",
+      "chickens": 244680000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 4,
+      "country": "Cyprus",
+      "chickens": 4655000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 5,
+      "country": "Netherlands",
+      "chickens": 89231000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 6,
+      "country": "Ukraine",
+      "chickens": 173725000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 7,
+      "country": "Russia (European Part)",
+      "chickens": 507994000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 8,
+      "country": "Portugal",
+      "chickens": 44098000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 9,
+      "country": "Belgium",
+      "chickens": 48754000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 10,
+      "country": "Spain",
+      "chickens": 193476000,
+      "data_year": 2020,
+      "source": "FAOSTAT 2024",
+      "note": "Most recent available data"
+    },
+    {
+      "rank": 11,
+      "country": "Romania",
+      "chickens": 74068000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 12,
+      "country": "Lithuania",
+      "chickens": 10476000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 13,
+      "country": "Greece",
+      "chickens": 38508000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 14,
+      "country": "Denmark",
+      "chickens": 20718000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 15,
+      "country": "Bosnia and Herzegovina",
+      "chickens": 11523000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 16,
+      "country": "France",
+      "chickens": 229317000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 17,
+      "country": "Latvia",
+      "chickens": 5985000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 18,
+      "country": "Norway",
+      "chickens": 16579000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 19,
+      "country": "Ireland",
+      "chickens": 15236000,
+      "data_year": 2020,
+      "source": "FAOSTAT 2024",
+      "note": "Most recent available data"
+    },
+    {
+      "rank": 20,
+      "country": "Hungary",
+      "chickens": 28733000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 21,
+      "country": "Croatia",
+      "chickens": 10936000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 22,
+      "country": "Finland",
+      "chickens": 14425000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 23,
+      "country": "Bulgaria",
+      "chickens": 17177000,
+      "data_year": 2020,
+      "source": "FAOSTAT 2024",
+      "note": "Most recent available data"
+    },
+    {
+      "rank": 24,
+      "country": "Sweden",
+      "chickens": 25729000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 25,
+      "country": "Italy",
+      "chickens": 142503000,
+      "data_year": 2020,
+      "source": "FAOSTAT 2024",
+      "note": "Most recent available data"
+    },
+    {
+      "rank": 26,
+      "country": "United Kingdom",
+      "chickens": 166986000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 27,
+      "country": "Czech Republic",
+      "chickens": 24917000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 28,
+      "country": "Slovenia",
+      "chickens": 5054000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 29,
+      "country": "Serbia",
+      "chickens": 14417000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 30,
+      "country": "Georgia",
+      "chickens": 7475000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 31,
+      "country": "Austria",
+      "chickens": 17804000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 32,
+      "country": "Germany",
+      "chickens": 156301000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 33,
+      "country": "Slovakia",
+      "chickens": 9593000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 34,
+      "country": "Montenegro",
+      "chickens": 1070000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 35,
+      "country": "Estonia",
+      "chickens": 2274000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 36,
+      "country": "Malta",
+      "chickens": 790000,
+      "data_year": 2023,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 37,
+      "country": "Albania",
+      "chickens": 4557000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 38,
+      "country": "Switzerland",
+      "chickens": 13168000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    },
+    {
+      "rank": 39,
+      "country": "North Macedonia",
+      "chickens": 2573000,
+      "data_year": 2024,
+      "source": "FAOSTAT 2024"
+    }
+  ]
+}
